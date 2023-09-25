@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>variables in javascript</title>
+    </head>
+    <body>
+        <input id="input" type="text">
+        <button id="click">click me</button>
+        <p id="p1">this is para 1</p>
+        <script>
+        /*  var x=10
+          x="rahul"// datatype of x changed from int to string
+          console.log(x) */
+          document.getElementById("click").onclick=function(){
+            var val=""
+            val=document.getElementById("input").value;
+            document.getElementById("p1").innerHTML=val
+          }
+        </script>
+    </body>
+</html>

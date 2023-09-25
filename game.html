@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>random number guessing game</title>
+    </head>
+    <body>
+        <p><h3>ENTER A NUMBER BETWEEN 1 TO 10</h3></p>
+        <input id="in" type="text">
+        <button id="click">submit</button>
+        <script>
+            var useranswer=0
+            document.getElementById("click").onclick=function(){
+               useranswer= document.getElementById("in").value
+               //alert(useranswer)
+               var companswer=Math.floor(Math.random()*10)+1
+               alert(companswer)
+              if(companswer==useranswer)
+               alert("user won!")
+               else
+               alert("try again") 
+            }
+        </script>
+    </body>
+</html>

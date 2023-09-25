@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>audio</title>
+    </head>
+    <body>
+        <button id="click">click me</button>
+        <script>
+            document.getElementById("click").addEventListener("click",function(Event){
+                var audio=new Audio("click.mp3");
+                audio.play()
+            });
+        </script>
+    </body>
+</html>

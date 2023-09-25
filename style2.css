@@ -1,0 +1,23 @@
+.circle{
+    height: 130px;
+    width: 130px;
+    
+    border-radius: 50%;
+    float:left;
+    margin-right: 50px;
+  }
+  #red{
+   
+    background-color:red;
+    
+  }
+  #green{
+    
+    background-color:green;
+   
+  }
+  #blue{
+   
+    background-color:blue;
+  }
+

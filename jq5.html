@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>fading content</title>
+        <script src="jquery.js"></script>
+    </head>
+    <style>
+        #para{
+            display: none;
+        }
+    </style>
+    <body>
+       <p id="para">hey i am shreshtha</p>
+       <button>fadeIn</button>
+     <!-- <button>fadeOut</button>-->  
+       <!-- <script>
+            $("button").click(function(){
+           //     $("p").fadeOut()
+           $("p").fadeOut("slow",function(){  //call back function
+            alert("content has faded out")
+           })
+            })
+        </script> -->
+        <script>
+            $("button").click(function(){
+                $("#para").fadeIn()
+            })
+        </script>
+    </body>
+</html>

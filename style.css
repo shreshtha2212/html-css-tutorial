@@ -1,0 +1,76 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    border: 1px solid red;
+    display: flex;
+    /*flex-direction: column;/*by default row*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row-reverse;*/
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    /*justify-content: flex-start;*/
+    justify-content: flex-end;
+   /* justify-content: space-around;*/
+   justify-content: space-between;/*for uniform space between flex boxex*/
+   /*align-items: flex-start;*/
+  /* align-items: flex-end;*/
+  align-items: stretch;
+   height: 200px;
+}
+li{
+    border:1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.div1{
+    background-color:red;
+     /*30px solid black;*/ border: 30px dotted black;
+}
+.div2{
+    background-color:green;
+    border-style: dotted solid dashed ridge;
+    border-width: 20px 30px 40px 10px;
+    
+}
+.div3{
+background-color:blue;
+border-radius: 30px;/*used to create circle*/
+    
+}
+.common{
+width: 100px;
+    height: 100px;
+    margin: 40px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+}
+.bold{
+font-weight: bold;
+}
+.italic{
+font-style: italic;
+}
+.underline{
+text-decoration: underline;
+}
+a{
+text-decoration: none;
+text-decoration-color: none;
+}
+a:hover{        /*pseudo class*/
+color:green;
+text-decoration: underline;
+}
+a:visited{
+color:brown;
+}
+.section{
+height: 300px;
+width:400px;
+background-color: burlywood;
+}
+.text{
+text-align: right;
+}

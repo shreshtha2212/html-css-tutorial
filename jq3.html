@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>manipulating content using jquery</title>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <iframe src="https://jquery.com/" frameboard="0"></iframe>
+      <!--  <p>this is some random text</p>-->
+
+        <!--<script>
+          //  $("p").click(function(){
+           //     $("p").html("text changed")
+              //alert($("p").html())
+          //  }
+          //  )
+          
+         
+        </script>-->
+        <script>
+            $("iframe").hover(function(){
+            $("iframe").attr("src","https://www.bbc.com/");
+            })
+        </script>
+    </body>
+</html>
